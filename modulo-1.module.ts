@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Modulo1Pagina1Component } from './modulo1-pagina1/modulo1-pagina1.component';
-import { Modulo1Pagina2Component } from './modulo1-pagina2/modulo1-pagina2.component';
-import { Modulo1Pagina3Component } from './modulo1-pagina3/modulo1-pagina3.component';
+import { Modulo1Pagina1Component } from './components/modulo1-pagina1/modulo1-pagina1.component';
+import { Modulo1Pagina2Component } from './components/modulo1-pagina2/modulo1-pagina2.component';
+import { Modulo1Pagina3Component } from './components/modulo1-pagina3/modulo1-pagina3.component';
 import { Routes, RouterModule } from '@angular/router';
+
 
 
 const routes: Routes = [
